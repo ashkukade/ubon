@@ -59,7 +59,7 @@ public class AboutYou {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[text()='YES, THIS IS CORRECT']")).click();
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 
 
 		WebElement Vehicletp = driver.findElement(By.xpath("//*[@id='ddlNewVehicleType']"));
